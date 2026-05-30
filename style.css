@@ -1,0 +1,96 @@
+@font-face {
+  src: url(https://dl.dropbox.com/s/1479f8x52y3z5u4/rainyhearts.ttf);
+  font-family: hearts;
+}
+
+@font-face {
+  font-family: 'Magica';
+  src: url(https://static.tumblr.com/p6yopnt/Qkiqnu0r5/theheart.ttf);
+}
+
+body {
+  background-color: #9B3160;
+  min-height: calc(130vh + 130px);
+}
+
+h1, h2, h3, h4 {
+  font-family: Magica, arial;
+  color: #A53962;
+  text-align: center;
+}
+
+h2 {
+  background-color: #E32B7D;
+}
+
+p {
+  font-family: hearts;
+  color: #A53962;
+}
+
+a {
+  font-family: hearts;
+  color: #A53962;
+}
+
+.mainbody {
+  position: absolute;
+  left: 340px;
+  top: 80px;
+  width: 800px;
+
+  min-height: 885px;
+
+  background-color: #CC2771;
+  border: 2px solid #6B0633;
+  border-radius: 15px;
+
+  overflow: visible;
+}
+
+.homura {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 15px;
+}
+
+.title {
+  position: absolute;
+  left: 260px;
+  width: 500px;
+}
+
+.intro {
+  position: absolute;
+  left: 20px;
+  top: 230px;
+  background-image: linear-gradient(white, #FFF2F7, #FFEAF2, #FFE2ED);
+  width: 188px;
+  min-height: 240px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #A53962;
+  overflow: visible;
+}
+
+.text {
+  position: absolute;
+  left: 260px;
+  top: 70px;
+  width: 490px;
+
+  padding: 5px;
+  background-image: linear-gradient(white, #FFF2F7, #FFEAF2, #FFE2ED);
+  border-radius: 15px;
+  border: 1px solid #A53962;
+
+  height: auto;
+  min-height: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

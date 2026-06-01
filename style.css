@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #9B3160;
+  background-color: #FFC8E8;
   min-height: calc(130vh + 130px);
 }
 
@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  background-color: #E32B7D;
+  background-color: #FFC8E8;
 }
 
 p {
@@ -41,8 +41,8 @@ a {
 
   min-height: 885px;
 
-  background-color: #CC2771;
-  border: 2px solid #6B0633;
+  background-color: #FFC8E8;
+  border: 2px solid #A53962;
   border-radius: 15px;
 
   overflow: visible;
